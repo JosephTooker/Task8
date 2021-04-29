@@ -20,7 +20,7 @@ function swapCase(string) {
 }
 
 function toCelsius(array){
-    const celsius = array.map(function(array){
+    const celsius = array.map(function(array) {
         return (array-32) * (5/9);
     });
     return celsius;
